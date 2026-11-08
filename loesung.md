@@ -323,13 +323,15 @@ Es gibt keine Fehlklassifikationen.
 Beim Zoo-Datensatz wurden die Algorithmen
 J48 und ID3 miteinander verglichen.
 
-| Kriterium | J48 (CSV) | ID3 (ARFF) |
-|---|---|---|
-| Instanzen | 101 | 101 |
-| Korrekt klassifiziert | 100 | 101 |
-| Falsch klassifiziert | 1 | 0 |
-| Genauigkeit | 99,0099 % | 100 % |
-| Fehlerrate | 0,9901 % | 0 % |
+
+| Kriterium | J48 (CSV) | J48 (ARFF) | ID3 (ARFF) |
+|---|---|---|---|
+| Instanzen | 101 | 101 | 101 |
+| Korrekt klassifiziert | 100 | 100 | 101 |
+| Falsch klassifiziert | 1 | 1 | 0 |
+| Genauigkeit | 99,0099 % | 99,0099 % | 100 % |
+| Fehlerrate | 0,9901 % | 0,9901 % | 0 % |
+
 
 J48 erzeugte einen Entscheidungsbaum mit
 9 Blättern und einer Baumgröße von 17.
@@ -453,13 +455,15 @@ Die Fehlerrate beträgt 0 %.
 Beim Restaurant-Datensatz wurden die
 Algorithmen J48 und ID3 verglichen.
 
-| Kriterium | J48 (CSV) | ID3 (ARFF) |
-|---|---|---|
-| Instanzen | 12 | 12 |
-| Korrekt klassifiziert | 10 | 12 |
-| Falsch klassifiziert | 2 | 0 |
-| Genauigkeit | 83,3333 % | 100 % |
-| Fehlerrate | 16,6667 % | 0 % |
+
+| Kriterium | J48 (CSV) | J48 (ARFF) | ID3 (ARFF) |
+|---|---|---|---|
+| Instanzen | 12 | 12 | 12 |
+| Korrekt klassifiziert | 10 | 10 | 12 |
+| Falsch klassifiziert | 2 | 2 | 0 |
+| Genauigkeit | 83,3333 % | 83,3333 % | 100 % |
+| Fehlerrate | 16,6667 % | 16,6667 % | 0 % |
+
 
 J48 erzeugte einen kleinen Entscheidungsbaum
 mit 3 Blättern und einer Baumgröße von 4.
